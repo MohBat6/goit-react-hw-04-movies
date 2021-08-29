@@ -1,0 +1,18 @@
+.reviewsList {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.reviewItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.reviewText {
+  margin: 0;
+}
+
+.reviewAuthor {
+  margin-top: 0;
+}
+/*# sourceMappingURL=Reviews.css.map */

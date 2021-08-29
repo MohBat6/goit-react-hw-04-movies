@@ -1,0 +1,34 @@
+.moviesBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.movieInput {
+  margin: 0 20px;
+  padding: 10px;
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+.searchButton {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  -webkit-transition: background-color 250ms ease, color 25ms ease;
+  transition: background-color 250ms ease, color 25ms ease;
+}
+
+.searchButton:hover, .searchButton:focus {
+  background-color: white;
+  color: red;
+  border: 3px solid red;
+}
+/*# sourceMappingURL=Movies.css.map */
